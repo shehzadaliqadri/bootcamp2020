@@ -30,4 +30,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ My_first_web_app_deployed.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./ My_first_web_app_deployed.surge.sh --token ${{ secrets.SURGE_TOKEN }}
